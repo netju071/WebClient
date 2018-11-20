@@ -1,0 +1,91 @@
+#navi{
+	margin-top:-20px;
+}
+#navi ul{
+	list-style-type: none;
+	margin-top: 90px;
+	width: 1278px;
+	min-width: 1278px;
+}
+#navi li{
+	display: inline-block;
+	margin: 0px 130px;
+}
+#navi img{
+	width: 160px;
+}
+#navi a{
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+	color: navy;
+}
+#subNavi ul{
+	display: none;
+    position: absolute;
+    margin-top: -199px;
+    margin-left: 140px;
+ 	width: 170px;
+    min-width: 170px;
+}
+#subNavi li{
+	display: block;
+	margin: 0px;
+	padding: 4px 0px;
+	background-color: #3c3c3c;
+}
+#subNavi:hover ul{
+	display: block;
+}
+#subNavi ul a{
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+}
+#subNavi li:hover a{
+	color: #B8EBB8;
+}
+#sideBar{
+	position: fixed;
+	right: 10px;
+	top: 350px;
+	width: 70px;
+	text-align: center;
+}
+#sideBar ul{
+	list-style-type: none;
+	border: 1px solid;
+	height: auto;
+	padding: 0px;
+	background-color: #2a2f32;
+}
+#sideBar li{
+	padding: 10px 3px;
+}
+#sideBar li:hover a{
+	color: #B8EBB8;
+}
+#sideBar a{
+	text-decoration:none;
+	color: white;
+}
+#about ul{
+	list-style-image: url("coffee_beans.jpg");
+	margin-top: 200px;
+	margin-left: 250px;
+}
+#about li{
+	margin-bottom: 110px; 
+}
+#about li>p{
+	margin-left: 20px;
+	font-size: 21px;
+	font-weight: bold;
+	color: green;
+}
+#about div{
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}

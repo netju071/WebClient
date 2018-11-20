@@ -1,0 +1,47 @@
+#navi ul{
+	list-style-type: none;
+	margin-top: 90px;
+	width: 1278px;
+	min-width: 1278px;
+	/*background-color: red;*/
+}
+#navi li{
+	display: inline-block;
+	margin: 0px 130px;
+}
+#navi img{
+	width: 160px;
+}
+#navi a{
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+	color: navy;
+}
+
+#subNavi ul{
+	display: none;
+    position: absolute;
+    margin-top: -199px;
+    margin-left: 130px;
+ 	width: 170px;
+    min-width: 170px;
+}
+#subNavi li{
+	display: block;
+	margin: 0px;
+	padding: 4px 0px;
+	background-color: #3c3c3c;
+}
+#subNavi:hover ul{
+	display: block;
+}
+#subNavi ul a{
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+}
+#subNavi li:hover a{
+	color: #B8EBB8;
+}

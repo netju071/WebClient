@@ -1,0 +1,122 @@
+#navi{
+	margin-top:-20px;
+}
+#navi ul{
+	list-style-type: none;
+	margin-top: 90px;
+	width: 1278px;
+	min-width: 1278px;
+}
+#navi li{
+	display: inline-block;
+	margin: 0px 130px;
+}
+#navi img{
+	width: 160px;
+}
+#navi a{
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+	color: navy;
+}
+#subNavi ul{
+	display: none;
+    position: absolute;
+    margin-top: -199px;
+    margin-left: 140px;
+ 	width: 170px;
+    min-width: 170px;
+}
+#subNavi li{
+	display: block;
+	margin: 0px;
+	padding: 4px 0px;
+	background-color: #3c3c3c;
+}
+#subNavi:hover ul{
+	display: block;
+}
+#subNavi ul a{
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+}
+#subNavi li:hover a{
+	color: #B8EBB8;
+}
+.menu{
+	margin-top: 100px;
+}
+.menu ul{
+	list-style-type: none;
+	padding-top: 100px;
+	padding-left: 0px;
+	margin-left: -100px;
+}
+.menu li{
+	display: inline-block;
+	margin: 30px 135px;
+}
+.menu div{
+	display: none;
+	position: absolute;
+	margin-top: -140px;
+	margin-left: 135px;
+	padding: 4px;
+	width: 240px;
+	text-align: left;
+	font-size: 16px;
+}
+.menu div b{
+	font-size:17px;
+}
+.menu img{
+	width: 130px;
+	height: auto;
+}
+.menu img:hover +div{
+	display: block;
+	border: 2px dotted;
+}
+#link{
+	margin-top: 80px;
+}
+#link ul{
+	list-style-type: none;
+	min-width: 1504px;
+	margin-bottom: 0px;
+}
+#link li{
+	display: inline-block;
+	padding-right: 70px;
+}
+#link img{
+	height:50px;
+	width:auto;
+}
+#sideBar{
+	position: fixed;
+	right: 10px;
+	top: 350px;
+	width: 70px;
+	text-align: center;
+}
+#sideBar ul{
+	list-style-type: none;
+	border: 1px solid;
+	height: auto;
+	padding: 0px;
+	background-color: #2a2f32;
+}
+#sideBar li{
+	padding: 10px 3px;
+}
+#sideBar li:hover a{
+	color: #B8EBB8;
+}
+#sideBar a{
+	text-decoration:none;
+	color: white;
+}
